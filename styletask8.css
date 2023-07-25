@@ -1,0 +1,26 @@
+div{
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+    position:relative;
+    top: 30px;
+}
+#div2{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    position:relative;
+    left: 300px;
+}
+#manta{
+    position: relative;
+    width: 300px;
+    height: auto;
+    right: 300px;
+    z-index: -1;
+}
+#lion {
+    width: 300px;
+    height: auto;
+    z-index: 1;
+}
